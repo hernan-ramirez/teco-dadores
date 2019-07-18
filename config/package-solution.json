@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "dadores-de-sangre-client-side-solution",
+    "id": "58897772-7c4f-4f5b-a7a4-c1c6021269d7",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": false
+  },
+  "paths": {
+    "zippedPackage": "solution/dadores-de-sangre.sppkg"
+  }
+}

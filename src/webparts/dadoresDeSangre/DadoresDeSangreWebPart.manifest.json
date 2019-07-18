@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "e5cb2c13-e027-43ae-91dc-6c7520bdc5a1",
+  "alias": "DadoresDeSangreWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "Dadores de Sangre - Pacientes" },
+    "description": { "default": "Esta webpart muestra el listado de pacientes para recivir dadores de sangre" },
+    "officeFabricIconFontName": "Heart",
+    "properties": {
+      "description": "Pacientes en espera",
+      "nombreLista": "Dadores de Sangre",
+      "verTodosLink": "/sites/DesarrollosHRamirez/TelecomPersonal/Dadores/Lists/DadoresSangre/Mosaicos.aspx"
+    }
+  }]
+}

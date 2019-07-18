@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "dadores-de-sangre-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dadoresDeSangre/DadoresDeSangreWebPart.js",
+          "manifest": "./src/webparts/dadoresDeSangre/DadoresDeSangreWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DadoresDeSangreWebPartStrings": "lib/webparts/dadoresDeSangre/loc/{locale}.js"
+  }
+}
